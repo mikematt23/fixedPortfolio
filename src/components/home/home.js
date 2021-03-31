@@ -15,8 +15,11 @@ let Home = ()=>{
               <h1 className = "ppp">Michael Matteis</h1>
               <h2 className = "mobileTitle">Web-Developer</h2>
               <div className = "contact">
-                <h4>michaelcmatteis@gmail.com</h4>
+                <a href = "www.michaelcmatteis@gmail.com" >michaelcmatteis@gmail.com</a>
                 <h4>469-667-3624</h4>
+                <Link to = '/contact'>
+                  <button>Contact</button>
+                </Link>
               </div>
             </div>  
             <div className = "Nav">
