@@ -1,0 +1,60 @@
+h1{
+  color: red;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  animation-name: text;
+  animation-duration: 5s;
+  animation-name: text;
+  animation-duration: 5s;
+}
+h3{
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.resumeContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  animation-name: text;
+  animation-duration: 5s;
+}
+.content{
+  height: 100%;
+  width: 80%;
+  overflow: scroll;
+  -ms-overflow-style: none;
+}
+.body{
+  display: flex;
+  justify-content: space-between;
+}
+.workHistory{
+  height: 250px;
+  width: 90%;
+  overflow: scroll;
+  -ms-overflow-style: none;
+}
+.skills{
+  height: 250px;
+  width:33%;
+}
+.education{
+  display: flex;
+  flex-direction: column;
+}
+.workHistory::-webkit-scrollbar {
+  display: none;
+}
+.content::-webkit-scrollbar {
+  display: none;
+}
+@keyframes text{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+@media screen and (max-width: 800px){
+  .body{
+    display: flex;
+    flex-direction: column;
+  }
+}

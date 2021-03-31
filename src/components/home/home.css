@@ -1,0 +1,79 @@
+.ppp{
+  color: red;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  animation-name: text;
+  animation-duration: 5s;
+}
+.Nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  animation-name: text;
+  animation-duration: 5s;
+  margin-bottom: 4%;
+}
+.Info{
+  width: 40%;
+  height: 80%;
+  border-right: double black 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation-name: text;
+  animation-duration: 5s;
+  margin-top: -4%;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5%;
+  animation-name: text;
+  animation-duration: 5s;
+}
+.mobileTitle{
+  height: 0%;
+  width: 0%;
+  opacity: 0;
+}
+.computer{
+  margin-bottom: 65%;
+}
+.contact h4{
+  margin:2%
+}
+@media screen and (max-width:600px){
+  .Info{
+    border: 0px;
+  }
+  .computer{
+    height: 0%;
+    width: 0%;
+    opacity: 0;
+  }
+  .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobileTitle{
+    opacity: 1;
+    height: 20%;
+    width: 100%;
+    margin-left: 40px;
+    transform: translate(60px, -110px);
+  }
+  .ppp{
+    border-right: double black 1px;
+    transform: translate(-70px, 10px);
+  }
+}
+@keyframes text{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
