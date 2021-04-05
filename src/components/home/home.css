@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 15%;
+  width: 20%;
   animation-name: text;
   animation-duration: 5s;
   margin-bottom: 4%;
@@ -41,7 +41,13 @@
   opacity: 0;
 }
 .computer{
-  margin-bottom: 65%;
+  margin-bottom: 30%;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color: black;
+}
+.computer span {
+  margin-left: 1%;
+
 }
 .contact h4{
   margin:2%

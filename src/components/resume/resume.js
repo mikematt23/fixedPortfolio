@@ -16,6 +16,9 @@ let Resume = ()=>{
           <Link to = "/">
             <button>Home</button>
           </Link>
+          <Link to = '/contact'>
+           <button>Contact</button>
+          </Link>
         </div>
         <div className = "content">
           <h1>Primary Objective</h1>
@@ -31,6 +34,7 @@ let Resume = ()=>{
                 <li>Node.js</li>
                 <li>SQL</li>
                 <li>Express</li>
+                <li>Git</li>
               </ul>
             </div>
             <div className = "workHistory">

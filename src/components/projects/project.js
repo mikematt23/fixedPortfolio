@@ -4,7 +4,7 @@ import "./project.css"
 import {useState} from "react"
 
 let Projects = ()=>{
-  const [disclamer,setDiscalmer] = useState("This Is Hosted On Heroku so the links may take 5 t0 10 seconds")
+  const [disclamer,setDiscalmer] = useState("This Is Hosted On Heroku so the links may take 30+ seconds")
   return(
     <div className = "holder">
      <div className = "container">
@@ -15,6 +15,9 @@ let Projects = ()=>{
         </Link>
        <Link to = "/resume">
          <button >Resume</button>
+       </Link>
+       <Link to = '/contact'>
+         <button>Contact</button>
        </Link>
        </div>
        <p className = "dis">{disclamer}</p>
