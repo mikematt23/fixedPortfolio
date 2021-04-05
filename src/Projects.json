@@ -7,14 +7,7 @@
     "Link": "https://aca-final-project-front-end.herokuapp.com/",
     "Github":"https://github.com/mikematt23/gcloud-express"
   },
-  {
-    "id" : 2,
-    "ProjectName": "FakeCars",
-    "Description" : "This project is a single page web application that uses react-router to manipulate  the date being displayed on the page",
-    "Tech":"JavaScript, React, Node, JSS, HTML",
-    "Link":"https://reactcarapp.herokuapp.com/",
-    "Github":"https://github.com/mikematt23/411_wk4_day1_react_router"
-  },
+
   {
     "id":3,
     "ProjectName":"Tic-Tac-toe",
