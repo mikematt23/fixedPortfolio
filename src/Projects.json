@@ -2,7 +2,7 @@
   {
     "id": 1,
     "ProjectName" : "Wax-On",
-    "Description": "This project is a full stack web application that I built using a SQL/express database with a React front end to Allow a user to sign up for mobile car washes",
+    "Description": "This project is a full stack web application that I built using a SQL/express database with a React front end to Allow a user to sign up for mobile car washes. *This is not resposive yet",
     "Tech": "SQL, JavaScript, React, React-Router, Redux, Express, Node, CSS, HTML ,JSS",
     "Link": "https://aca-final-project-front-end.herokuapp.com/",
     "Github":"https://github.com/mikematt23/gcloud-express"

@@ -55,7 +55,7 @@
 @media screen and (max-width: 600px){
   .projectContainer{
     height: 66%;
-    margin: 31%;
+    margin: 46%;
   }
 }
 @media screen and (max-width:600px){
@@ -66,14 +66,12 @@
   .projectHolder{
     border: 0px;
   }
-}
-
-@media screen and (max-width:600px){
   .container{
     display: flex;
     flex-direction: column;
   }
 }
+
 @media screen and (max-width:350px){
   .projectContainer{
     margin-bottom: 107%;
@@ -81,7 +79,7 @@
 }
 @media screen and (max-width:280px){
   .projectContainer{
-    margin-bottom: 171%;
+    margin-bottom: 176%;
   }
 }
 @keyframes text{
