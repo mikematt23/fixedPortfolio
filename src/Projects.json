@@ -21,7 +21,7 @@
     "ProjectName": "Pig-Latin",
     "Description": "This project uses javascript to manipulate the DOM to make a pig latin translator for phrases or just one word based on the user input",
     "Tech":"JavaScript, CSS, HTML",
-    "Link":"https://dashboard.heroku.com/apps/piglatinapp",
+    "Link":"https://piglatinapp.herokuapp.com/pigLatin.html",
     "Github":"https://github.com/mikematt23/pigLatin"
   }
 ]
