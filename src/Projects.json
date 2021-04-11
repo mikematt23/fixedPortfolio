@@ -10,7 +10,7 @@
   {
      "id": 2,
      "ProjectName" : "Music Dash Board UI",
-     "Description" : "This is a front end single page app for a music app UI that use react state to manipulate the DOM. This was create by my classmate and myself",
+     "Description" : "This is a front end single page app for a music app UI that use react state to manipulate the DOM. No back end on this so just click log in. This was create by my classmate and myself",
      "Tech": "JavaScript, CSS, HTML , React",
      "Link": "https://working-together-music-app.herokuapp.com/",
      "Github":"https://github.com/mikematt23/myMusicApp"
