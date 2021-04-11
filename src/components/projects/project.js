@@ -4,7 +4,7 @@ import "./project.css"
 import {useState} from "react"
 
 let Projects = ()=>{
-  const [disclamer,setDiscalmer] = useState("This Is Hosted On Heroku so the links may take 30+ seconds")
+  const [disclamer,setDiscalmer] = useState("This Is Hosted On Heroku so the links may take 10+ seconds")
   return(
     <div className = "holder">
      <div className = "container">
